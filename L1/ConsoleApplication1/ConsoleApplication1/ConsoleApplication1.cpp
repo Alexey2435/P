@@ -99,7 +99,9 @@ int main()  // 5 задание
     }
 
     cout << "Vvedite name, surname, age:";
-    cin >> search.name >> search.surname >> search.age;
+    cin >> search.name;
+    cin >> search.surname;
+    cin >> search.age;
     for (int i = 0; i < 5; i++)
     {
         if (strcmp(studs[i].name, search.name) == 0)
@@ -108,3 +110,56 @@ int main()  // 5 задание
                     cout << studs[i].name << " " << studs[i].surname << " " << studs[i].age;
     }
 }
+
+/*int main()
+{
+    srand(time(NULL));
+    int x = 5, y = 5;
+    cout << "Vvedite razmeri 2-mernogo massiva: ";
+    cin >> x;
+    cin >> y;
+
+    //int* res = (int*)malloc(x * sizeof(int));
+    int res = 0;
+
+    int** arr = (int**)malloc(x * sizeof(int));
+    for (int i = 0; i < x; i++)
+    {
+        arr[i] = (int*)malloc(y * sizeof(int));
+    }
+
+    for (int i = 0; i < x; i++)
+    {
+        for (int j = 0; j < y; j++)
+        {
+            arr[i][j] = rand() % 100;
+            cout << arr[i][j] << " ";
+        }
+        cout << "\n";
+    }
+
+    if (x <= y)
+    {
+        for (int i = 0; i < x; i++)
+        {
+            res += arr[i][i];
+        }
+        cout << "\n" << res << " ";
+    }
+    else
+    {
+        for (int i = 0; i < y; i++)
+        {
+            res += arr[i][i];
+        }
+        cout << "\n" << res << " ";
+    }
+
+    
+
+    for (int i = 0; i < x; i++)
+    {
+        free(arr[i]);
+    }
+    free(arr);
+}*/
