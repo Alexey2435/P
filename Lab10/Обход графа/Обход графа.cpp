@@ -19,7 +19,7 @@ void BFSD(int s)
         cout << s + 1 << endl;
         for (int i = 0; i < N; i++)
         {
-            if (M[s][i] != 0 and Dist[i] == -1) {
+            if (M[s][i] != 0 and Dist[i] > Dist[s] + M[s][i]) {
                 Q.push(i);
                 Dist[i] = Dist[s] + M[s][i];
             }
@@ -29,11 +29,12 @@ void BFSD(int s)
 
 int main()
 {
+    int start = 0;
     srand(time(NULL));
     for (int i = 0; i < N; i++)
     {
         M[i] = (int*)malloc(N * sizeof(int));
-        Dist[i] = -1;
+        Dist[i] = 99;
     }
     for (int i = 0; i < N; i++)                     //Заполнение
     {
@@ -56,8 +57,13 @@ int main()
     }
     cout << "\n";
 
-    system("pause");
+    cin >> start;
 
+    cout << "\n";
+
+    //system("pause");
+
+    BFSD(start - 1);
     for (int i = 0; i < N; i++)
     {
         if (Dist[i] == -1) {
