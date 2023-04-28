@@ -1,0 +1,36 @@
+﻿  Source.cpp
+C:\Users\AsusROG\Desktop\Maze\Maze\Source.cpp(54,7): warning C4101: b: неиспользованная локальная переменная
+C:\Users\AsusROG\Desktop\Maze\Maze\Source.cpp(150,26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\AsusROG\Desktop\Maze\Maze\Source.cpp(151,26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::Color const sf::Color::White" (__imp_?White@Color@sf@@2V12@B).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QAEXMM@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: bool __thiscall sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV?$Rect@H@2@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QAE@XZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QAE@XZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UAE@XZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: bool __thiscall sf::SoundBuffer::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@SoundBuffer@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::SoundBuffer::~SoundBuffer(void)" (__imp_??1SoundBuffer@sf@@QAE@XZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::SoundBuffer::SoundBuffer(void)" (__imp_??0SoundBuffer@sf@@QAE@XZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall sf::Sound::setLoop(bool)" (__imp_?setLoop@Sound@sf@@QAEX_N@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall sf::Sound::setBuffer(class sf::SoundBuffer const &)" (__imp_?setBuffer@Sound@sf@@QAEXABVSoundBuffer@2@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual void __thiscall sf::Sound::stop(void)" (__imp_?stop@Sound@sf@@UAEXXZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual void __thiscall sf::Sound::play(void)" (__imp_?play@Sound@sf@@UAEXXZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __thiscall sf::Sound::~Sound(void)" (__imp_??1Sound@sf@@UAE@XZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::Sound::Sound(void)" (__imp_??0Sound@sf@@QAE@XZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall sf::Window::display(void)" (__imp_?display@Window@sf@@QAEXXZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: bool __thiscall sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QAE_NAAVEvent@2@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: bool __thiscall sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QBE_NXZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall sf::Window::close(void)" (__imp_?close@Window@sf@@QAEXXZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QAEXABVDrawable@2@ABVRenderStates@2@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QAEXABVColor@2@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall sf::Sprite::setTextureRect(class sf::Rect<int> const &)" (__imp_?setTextureRect@Sprite@sf@@QAEXABV?$Rect@H@2@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QAEXABVTexture@2@_N@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QAE@XZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::Sprite::Sprite(class sf::Texture const &)" (__imp_??0Sprite@sf@@QAE@ABVTexture@1@@Z).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ).
+Source.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __thiscall sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UAE@XZ).
+C:\Users\AsusROG\Desktop\Maze\Release\Maze.exe : fatal error LNK1120: неразрешенных внешних элементов: 31

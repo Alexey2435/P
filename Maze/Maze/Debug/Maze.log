@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\AsusROG\Desktop\Maze\Maze\Source.cpp(58,7): warning C4101: b: неиспользованная локальная переменная
+C:\Users\AsusROG\Desktop\Maze\Maze\Source.cpp(199,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\AsusROG\Desktop\Maze\Maze\Source.cpp(268,68): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\AsusROG\Desktop\Maze\Maze\Source.cpp(268,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Maze.vcxproj -> C:\Users\AsusROG\Desktop\Maze\Debug\Maze.exe
